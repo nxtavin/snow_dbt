@@ -1,8 +1,8 @@
 ## Project
-name: tasty_bytes
+name: snowdbt
 version: "1.0"
 config-version: 2
-profile: tasty_bytes
+profile: snowdbt
 
 ## Sources
 model-paths: [models]

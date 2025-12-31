@@ -1,19 +1,19 @@
-tasty_bytes:
+snowdbt:
   target: dev
   outputs:
     dev:
       type: snowflake
       account: 'not needed'
-      user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
+      user: SOLDER
+      role: dbt_developer
+      database: SNOWDBT_DEV
       schema: dev
-      warehouse: tasty_bytes_dbt_wh
+      warehouse: DWH
     prod:
       type: snowflake
       account: 'not needed'
-      user: 'not needed'
-      role: accountadmin
-      database: tasty_bytes_dbt_db
+      user: SOLDIER
+      role: dbt_developer
+      database: SNOWDBT_PROD
       schema: prod
-      warehouse: tasty_bytes_dbt_wh
+      warehouse: DWH
