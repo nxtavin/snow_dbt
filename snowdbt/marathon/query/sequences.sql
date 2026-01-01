@@ -1,0 +1,1 @@
+create sequence seq_1 start = 1 increment = 1;

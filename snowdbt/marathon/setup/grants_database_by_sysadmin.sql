@@ -18,3 +18,4 @@ GRANT DATABASE ROLE SNOWDBT_DEV_DEVELOPER to role dbt_dEVELOPER;
 create schema SNOWDBT_DEV.queries;
 grant usage on schema SNOWDBT_DEV.queries TO DATABASE ROLE SNOWDBT_DEV_DEVELOPER;
 grant create tables on schema SNOWDBT_DEV.queries TO DATABASE ROLE SNOWDBT_DEV_DEVELOPER;
+grant create sequence on schema SNOWDBT_DEV.queries TO DATABASE ROLE SNOWDBT_DEV_DEVELOPER;
