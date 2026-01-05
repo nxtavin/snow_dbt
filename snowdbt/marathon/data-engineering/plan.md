@@ -11,3 +11,13 @@ CLONE
  STAGE , FILE FORMAT , PIPE , STREAMING , TASK , TABLE , VIEW , SCHEMA , DATABASE PERMISSIONS.
 
 MATERIALIZED VIEWS
+
+
+# Project
+
+1. Streaming ( Kafka ?)
+    Confluent setup
+    snowflake setup
+2. Schema evolution
+3. Multiple databases
+4. Data share

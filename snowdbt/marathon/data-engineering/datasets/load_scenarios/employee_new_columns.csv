@@ -1,0 +1,6 @@
+employee_id,first_name,last_name,email,salary,joining_date,manager_id
+401,Paul,Adams,paul.adams@company.com,75000,2023-01-15,1001
+402,Quincy,Baker,quincy.baker@company.com,72000,2022-11-01,1002
+403,Rachel,Carter,rachel.carter@company.com,78000,2023-03-10,1001
+404,Steve,Turner,steve.turner@company.com,69000,2021-09-20,1003
+405,Tina,Evans,tina.evans@company.com,71000,2022-05-05,1002

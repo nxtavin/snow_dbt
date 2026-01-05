@@ -1,0 +1,6 @@
+emp_id,fname,lname,email_address,annual_salary
+201,Alice,Johnson,alice.johnson@company.com,72000
+202,Bob,Martin,bob.martin@company.com,68000
+203,Chris,Lee,chris.lee@company.com,64000
+204,Diana,Clark,diana.clark@company.com,71000
+205,Evan,Lopez,evan.lopez@company.com,66000
