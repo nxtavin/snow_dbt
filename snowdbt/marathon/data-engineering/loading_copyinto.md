@@ -1,14 +1,14 @@
 # LOADING - COPY INTO
 
+- ON_ERROR Defaults :
+    - Bulk load - ABORT_STATEMENT
+    - Snowpipe - SKIP_FILE
+
+
 ### Validate
 
 - Validate mode doesnt insert to table.
 - Use VALIDATION_MODE + QUERY_ID + result_scan($qid) 
-
-
-
-
-
 
 
 ### Metadata Columns

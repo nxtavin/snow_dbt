@@ -1,6 +1,0 @@
-employee_id,first_name,last_name,email,salary,joining_date
-1001,Elon,Musk,elon.musk@company.com,150000,01-12-2020
-1002,Jeff,Bezos,jeff.bezos@company.com,145000,2020/11/15
-1003,Bill,Gates,bill.gates@company.com,140000,Dec 20, 2020
-1004,Satya,Nadella,satya.nadella@company.com,130000,2020.10.10
-1005,Sundar,Pichai,sundar.pichai@company.com,135000,2020-09-01
