@@ -4,7 +4,7 @@
 | -------- | ------- | -------|
 | FILE  | COMPRESSION, TYPE, ENCODING , PARSE_HEADER, SKIP_HEADER   |Invalid file format : "PARSE_HEADER" is only allowed for CSV INFER_SCHEMA and MATCH_BY_COLUMN_NAME|
 | DATA | RECORD_DELIMITER/FIELD_DELIMITER  , MULTI_LINE,NULL_IF | |
-| MISC | ERROR_ON_COLUMN_COUNT_MISMATCH  | When you load a CSV file with INCLUDE_METADATA / Schema evolution, set the file format option ERROR_ON_COLUMN_COUNT_MISMATCH to FALSE. |
+| MISC | ERROR_ON_COLUMN_COUNT_MISMATCH = FALSE | Needed for Schema evolution +  When you load a CSV file with INCLUDE_METADATA  |
 | MISC | EMPTY_FIELD_AS_NULL  | If set to FALSE, Snowflake attempts to cast an empty field to the corresponding column type. |
 
 -- <https://docs.snowflake.com/en/sql-reference/sql/create-file-format#syntax>
